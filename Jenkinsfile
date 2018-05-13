@@ -27,4 +27,5 @@ pipeline {
         }
         failure {
             mail to: meetshubham05@yahoo.co.in, subject: 'The Pipeline failed :('
+        }
 }
